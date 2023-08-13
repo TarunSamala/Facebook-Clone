@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <style>
+            section{
+                display: flex;
+                width: 100%;
+                padding: 10px 10px;
+                top: 10vh;
+                
+
+            }
+           
+            
+            form{
+                position: relative;
+                align-items: center;
+                padding: 10px;
+                left: -8vh;
+                top: 25vh;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+                margin: 10px;
+                border-radius: 5px;
+                background: white;
+            }
+            hr{
+                opacity: 0.2;
+            }
+            .login{
+                border-radius: 6px;
+                color: white;
+                background-color: #1877f2;
+                width: 332px;
+                height: 40px;
+                outline: none;
+                padding: 0 16px;
+                border: none;
+                font-size: 18px;
+                line-height: 48px;
+                vertical-align: middle;
+                margin: 15px;
+                display: flex; 
+                justify-content: center;
+                align-items: center; 
+            }
+            .create{
+                border-radius: 6px;
+                color: white;
+                background-color: #42b72a;;
+                width: 200px;
+                height: 40px;
+                border: none;
+                font-size: 18px;
+                line-height: 48px;
+                vertical-align: middle;
+                margin-top: 11px;
+                margin-bottom: 9px;
+                margin-left: 75px;
+                display: flex; 
+                justify-content: center;
+                align-items: center; 
+            }
+
+            input{
+                
+                border-radius: 6px;
+                width: 332px;
+                height: 45px;
+                padding: 10px;
+                margin: 15px;
+                opacity: 0.4;
+            }
+            .login::placeholder{
+                opacity: 0.2;
+            }
+            a{
+                text-decoration: none;
+            }
+            
+         
+
+            .caption{
+                font-size: 28px;
+                font-weight: normal;
+
+            }
+
+            .text{
+
+                margin: 180px;
+
+            }
+            
+            .new{
+                font-size: 1em;
+            }
+
+        </style>
+    </head>
+    
+    <body style="background: #f0f2f5;">
+        
+        <section>
+          
+            <div class = "text">
+
+                <div class = "img" style="left: -60px;">
+                    <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+                </div>
+
+                <div class = "caption">
+                    Facebook helps you connect and share with the people in your life.
+                </div>
+
+                
+
+            </div>
+            <div class = "form">
+                <form action="">
+                    
+                    <div class = "input">
+                         <input type="text" placeholder="Email address or phone numbers">
+                    </div>
+                    <div class = "input">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <button class = "login">Log in</button><br> 
+                    <a href="#"><span style="color: blue; text-align: center; margin: 111px; margin-bottom: 20px;">Forgotten password?</span></a>
+                    <hr>
+                    <button class = "create"><div class = "new">Create new account</div></button>
+                </form>
+            </div>
+
+        </section>
+    </body>
+</html>
